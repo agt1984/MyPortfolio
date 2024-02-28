@@ -1,6 +1,7 @@
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber' //se importa la libreria 3d de react una vez instalada
 import Loader from '../components/Loader'   //se importa el cargador 3d
+import { Island } from '../models/Island'
 
 {/* <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
         POPUP
@@ -23,6 +24,8 @@ const Home = () => {
           <pointLight />
           <spotLight />
           <hemisphereLight />
+
+          <Island/>
         </Suspense>
       </Canvas>
     </section>
