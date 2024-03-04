@@ -7,7 +7,7 @@ Title: Fox's islands
 */
 
 //solo para que funcione el modelo se importan estas bibliotecas
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import { a } from '@react-spring/three' //biblioteca que permite las animaciones
@@ -16,11 +16,10 @@ import isLandScene from '../assets/3d/island.glb';
 
 const Island = (props) => {
   const islandRef = useRef();
-
-  const { nodes, materials } = useGLTF("/island.glb");
+  const { nodes, materials } = useGLTF(isLandScene);
   
   return (
-    <a.group ref={islandRef}  {...props}>
+    <a.group ref={islandRef} {...props}>
       <mesh
         geometry={nodes.polySurface944_tree_body_0.geometry}
         material={materials.PaletteMaterial001}
