@@ -24,8 +24,33 @@ const Island = ({isRotating, setIsRotating, ...props}) => {
   const rotationSpeed = useRef(0);
   const dampingFactor = 0.95;
 
-  const handlePointerDown = (e) => {
-    e.stopPropagation();
+  //cuando pulso el cursor abajo
+  const handlePointerDown = (e) => { //la e es de evento click
+    e.stopPropagation(); //parar movimiento
+    e.preventDefault();
+    setIsRotating(true);
+
+    const clientX = e.touches 
+      ? e.touches[0].clientX
+      : e.clientX;
+
+    lastX.current = clientX;
+  }
+
+  //cuando suelto el mouse
+  const handlePointerUp = (e) => { 
+    e.stopPropagation(); //parar movimiento
+    e.preventDefault();
+    setIsRotating(false);
+
+    const clientX = e.touches 
+      ? e.touches[0].clientX
+      : e.clientX;
+
+    const delta = (clientX - lastX.current) / viewport.width
+  }
+  const handlePointerMove = (e) => {
+    e.stopPropagation(); //parar movimiento
     e.preventDefault();
   }
   
