@@ -15,6 +15,7 @@ import Plane from "../models/Plane";
 
 const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
+  const [currentStage, setCurrentStage] = useState(1);
 
   //en esta parte se ponen los parametros de la posicion de la isla
   const adjustIslandForScreenSize = () => {
@@ -86,6 +87,7 @@ const Home = () => {
             rotation={islandRotation}
             isRotating={isRotating}
             setIsRotating={setIsRotating}
+            setCurrentStage={setCurrentStage}
           />
           <Plane
             isRotating={isRotating}
