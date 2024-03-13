@@ -80,7 +80,7 @@ const Home = () => {
           {/* luz de un solo punto a multiples direcciones, solo escenatios internos*/}
           {/*<spotLight />*/} {/* luz en un punto como cono */}
           <Bird />
-          <Sky />
+          <Sky isRotating={isRotating} />
           <Island
             position={islandPosition}
             scale={islandScale}
