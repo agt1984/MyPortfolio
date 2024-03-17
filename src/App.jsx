@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
  
 const App = () => {
   return (
-    <main className="bg-slate-300/20">
+    <main className="bg-slate-300/20 h-full">
       {/* el router encapsula todos las distintas rutas de las paginas */}
       <Router>
         <Navbar /> {/* navbar por encima de las rutas */}
