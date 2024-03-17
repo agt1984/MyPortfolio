@@ -2,6 +2,7 @@
 import compas from "../assets/images/compas.png"; //usa esta sintaxis para traer las imagenes de la experiencia
 import unesco from "../assets/images/unesco.png";
 import factoria from "../assets/images/factoria.png";
+import todo from "../assets/images/TO-DO.png";
 import {
   car,
   contact,
@@ -152,12 +153,12 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: threads,
+    iconUrl: todo,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "TO-DO-LIST",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "A to-do list capable of storing data locally. It may seem simple, but it allows for data storage and task editing. Additionally, once a task is completed, it automatically moves to the bottom of the list, eliminating the need to manually rearrange tasks. The entire application was created using JavaScript with a touch of CSS. It features a minimal and beautiful design, so enjoy!",
+    link: "https://agt1984.github.io/to-do-list/",
   },
   {
     iconUrl: car,
