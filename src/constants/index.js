@@ -161,14 +161,14 @@ export const projects = [
     link: "https://agt1984.github.io/to-do-list/",
   },
   {
-    iconUrl: car,
+    iconUrl: summiz,
     theme: "btn-back-blue",
     name: "EN PROCESO",
     description: "TRABAJANDO PARA USTED.",
     link: "https://github.com/adrianhajdin/project_next13_car_showcase",
   },
   {
-    iconUrl: estate,
+    iconUrl: summiz,
     theme: "btn-back-black",
     name: "EN PROCESO",
     description: "TRABAJANDO PARA USTED..",
