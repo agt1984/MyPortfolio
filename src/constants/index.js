@@ -164,8 +164,8 @@ export const projects = [
   {
     iconUrl: shoppingCart,
     theme: "btn-back-blue",
-    name: "Simple Cart Component",
-    description: "Asimple shopping cart made with React.",
+    name: "Simple Shopping Cart Component",
+    description: "A simple shopping cart made with React.",
     link: "https://carrito-basico-zeta.vercel.app/",
   },
   {
