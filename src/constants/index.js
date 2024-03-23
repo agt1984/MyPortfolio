@@ -3,6 +3,7 @@ import compas from "../assets/images/compas.png"; //usa esta sintaxis para traer
 import unesco from "../assets/images/unesco.png";
 import factoria from "../assets/images/factoria.png";
 import todo from "../assets/images/TO-DO.png";
+import shoppingCart from "../assets/icons/shoppingCart.png";
 import {
   car,
   contact,
@@ -22,7 +23,7 @@ import {
   summiz,
   tailwindcss,
   threads,
-  typescript,
+  typescript
 } from "../assets/icons";
 
 export const skills = [
@@ -161,11 +162,11 @@ export const projects = [
     link: "https://agt1984.github.io/to-do-list/",
   },
   {
-    iconUrl: summiz,
+    iconUrl: shoppingCart,
     theme: "btn-back-blue",
-    name: "EN PROCESO",
-    description: "TRABAJANDO PARA USTED.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+    name: "Simple Cart Component",
+    description: "Asimple shopping cart made with React.",
+    link: "https://carrito-basico-zeta.vercel.app/",
   },
   {
     iconUrl: summiz,
