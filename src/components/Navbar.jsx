@@ -14,7 +14,9 @@ const Navbar = () => {
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            isActive ? "text-red-500 font-bold" : "text-orange-500 font-bold"
+            isActive
+              ? "text-red-500 font-bold w-15 h-10 rounded-lg bg-white items-center justify-center flex font-bold shadow-md"
+              : "text-orange-500 font-bold w-15 h-10 rounded-lg bg-white items-center justify-center flex font-bold shadow-md"
           }
         >
           &nbsp;&lt; Sobre Mi /&gt;&nbsp;
@@ -22,7 +24,9 @@ const Navbar = () => {
         <NavLink
           to="/projects"
           className={({ isActive }) =>
-            isActive ? "text-red-500 font-bold" : "text-orange-500 font-bold"
+            isActive
+              ? "text-red-500 font-bold rounded-lg bg-white items-center justify-center flex font-bold shadow-md"
+              : "text-orange-500 font-bold rounded-lg bg-white items-center justify-center flex font-bold shadow-md"
           }
         >
           &nbsp;&lt; Proyectos /&gt;&nbsp;

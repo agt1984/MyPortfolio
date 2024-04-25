@@ -15,13 +15,15 @@ const InfoBox = ({ text, link, btnText }) => (
 const renderContent = {
   1: (
     <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-orange py-4 px-8 text-white mx-5">
-      Hola, Soy <span className="font-semibold">Alvaro</span>👋🏻
-      <br />Desarrollador Full Stack de España 🇪🇸
+      Hola, Soy <span className="font-semibold">Alvaro Luis</span>👋🏻
+      <br />
+      Desarrollador Full Stack de España 🇪🇸
+      <p className="text-sm">Usa ⇄ para moverte por la isla</p>
     </h1>
   ),
   2: (
     <InfoBox
-      text="I have dedicated 1370 hours to studying Frontend and Fullstack development. Additionally, I have worked on various projects where I have gained extensive experience and practice."
+      text="He dedicado 1370 horas al estudio del desarrollo Frontend y Backend. Además, he trabajado en diversos proyectos donde he adquirido amplia experiencia y práctica."
       link="/about"
       btnText="Learn more"
     />
