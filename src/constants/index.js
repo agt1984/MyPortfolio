@@ -4,6 +4,8 @@ import unesco from "../assets/images/unesco.png";
 import factoria from "../assets/images/factoria.png";
 import todo from "../assets/images/TO-DO.png";
 import shoppingCart from "../assets/icons/shoppingCart.png";
+import chatbot from "../assets/icons/chatbot.png";
+
 import {
   car,
   contact,
@@ -23,7 +25,7 @@ import {
   summiz,
   tailwindcss,
   threads,
-  typescript
+  typescript,
 } from "../assets/icons";
 
 export const skills = [
@@ -154,12 +156,12 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: todo,
-    theme: "btn-back-green",
-    name: "TO-DO-LIST",
+    iconUrl: chatbot,
+    theme: "btn-back-black",
+    name: "ChatbotReact",
     description:
-      "A to-do list capable of storing data locally. It may seem simple, but it allows for data storage and task editing. Additionally, once a task is completed, it automatically moves to the bottom of the list, eliminating the need to manually rearrange tasks. The entire application was created using JavaScript with a touch of CSS. It features a minimal and beautiful design, so enjoy!",
-    link: "https://agt1984.github.io/to-do-list/",
+      "The React chatbot is an application that engages with users interested in motorcycles. It utilizes a conversation tree based on age and motorcycle usage preferences to provide personalized recommendations. It assists users in finding information about various types of motorcycles tailored to their specific needs.",
+    link: "https://chatbot-react-murex.vercel.app/",
   },
   {
     iconUrl: shoppingCart,
@@ -169,15 +171,23 @@ export const projects = [
     link: "https://carrito-basico-zeta.vercel.app/",
   },
   {
-    iconUrl: summiz,
-    theme: "btn-back-black",
-    name: "EN PROCESO",
-    description: "TRABAJANDO PARA USTED..",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+    iconUrl: todo,
+    theme: "btn-back-green",
+    name: "TO-DO-LIST",
+    description:
+      "A to-do list capable of storing data locally. It may seem simple, but it allows for data storage and task editing. Additionally, once a task is completed, it automatically moves to the bottom of the list, eliminating the need to manually rearrange tasks. The entire application was created using JavaScript with a touch of CSS. It features a minimal and beautiful design, so enjoy!",
+    link: "https://agt1984.github.io/to-do-list/",
   },
   {
     iconUrl: summiz,
-    theme: "btn-back-yellow",
+    theme: "btn-back-orange",
+    name: "EN PROCESO",
+    description: "TRABAJANDO PARA USTED..",
+    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-red",
     name: "EN PROCESO",
     description: "TRABAJANDO PARA USTED..",
     link: "https://github.com/adrianhajdin/project_ai_summarizer",

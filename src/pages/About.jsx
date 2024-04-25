@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section className="max-container">
       <h1 className="head-text">
-        Hello, I'm{" "}
+        Hola, Soy{" "}
         <span className="orange-gradient_text font-semibold drop-shadow">
           {" "}
           Alvaro Luis
@@ -22,16 +22,18 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Front-End Web Developer and Full-Stack Web Developer with proficiency
-          in HTML, CSS, Javascript, ReactJS, VUE, MongoDB, MySQL, NodeJS,
-          Laravel, Bootstrap, Git, and BitBucket. Additionally, I am a clinical
-          psychologist with extensive experience in addictions and criminal
-          behavior.
+          Apasionado por la tecnologia, las ciencias sociales, el arte, los
+          videojuegos y las artes marciales. Tengo más de 15 años de experiencia
+          previa como psicologo, y actualmente soy desarrollador Web Front-End y
+          Desarrollador Web Full-Stack con Ciberseguridad, con más de mil horas
+          de formacion. Busco un sitio donde pueda aportar mi experiencia
+          trabajando en distintos entornos de trabajo, además de poder seguir
+          profundizando mis conocimientos en el sector tecnologico.
         </p>
       </div>
 
       <div className="py-10 flex flex-col">
-        <h3 className="subhead-text">My Skills</h3>
+        <h3 className="subhead-text">Mi Stack</h3>
 
         <div className="mt-16 flex flex-wrap gap-12">
           {skills.map((skill) => (
@@ -43,6 +45,9 @@ const About = () => {
                   alt={skill.name}
                   className="w-1/2 h-1/2 object-contain"
                 />
+                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 text-white text-xs opacity-0 hover:opacity-100 transition-opacity duration-300">
+                  {skill.name}
+                </div>
               </div>
             </div>
           ))}
@@ -50,11 +55,12 @@ const About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">Work Experience.</h3>
+        <h3 className="subhead-text">Experiencia Laboral.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've worked with all sorts of projects and companies, leveling up my
-            skills and teaming up with smart people. Here's the rundown:
+            He trabajado en todo tipo de compañías donde he aprendido mucho
+            sobre la vida corporativa, logrando adaptarme a diversos entornos
+            laborales y adquiriendo nuevas habilidades en el proceso.
           </p>
         </div>
 
