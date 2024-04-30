@@ -85,7 +85,7 @@ const Contact = () => {
           className="w-full flex flex-col gap-7 mt-14"
         >
           <label className="text-black-500 font-semibold">
-            Name
+            Nombre
             <input
               type="text"
               name="name"
@@ -113,7 +113,7 @@ const Contact = () => {
             />
           </label>
           <label className="text-black-500 font-semibold">
-            Your Message
+            Tu Mensaje
             <textarea
               name="message"
               rows="4"

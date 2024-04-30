@@ -25,21 +25,21 @@ const renderContent = {
     <InfoBox
       text="He dedicado 1370 horas al estudio del desarrollo Frontend y Backend. Además, he trabajado en diversos proyectos donde he adquirido amplia experiencia y práctica."
       link="/about"
-      btnText="Learn more"
+      btnText="Aprende más"
     />
   ),
   3: (
     <InfoBox
-      text="I have several projects where I have put my skills to the test. Furthermore, I enjoy experimenting with new stacks and technologies, which allows me to stay updated and in constant learning."
+      text="Tengo varios proyectos donde he puesto a prueba mis habilidades. Además, disfruto experimentando con nuevas herramientas y tecnologías, lo que me permite estar actualizado y en constante aprendizaje."
       link="/projects"
-      btnText="Visit my portfolio"
+      btnText="Visita mi portafolio"
     />
   ),
   4: (
     <InfoBox
-      text="¿Need a project done or interested in working with me? I'm just a few keystrokes away."
+      text="¿Necesitas un proyecto completado o estás interesado en trabajar conmigo? Estoy a solo unos cuantos clics de distancia."
       link="/contact"
-      btnText="Let's talk"
+      btnText="Hablemos"
     />
   ),
 };
