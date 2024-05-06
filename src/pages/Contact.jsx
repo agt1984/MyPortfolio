@@ -77,7 +77,7 @@ const Contact = () => {
       {alert.show && <Alert {...alert} />}
 
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <h1 className="head-text">Get in Touch</h1>
+        <h1 className="head-text">Contáctame</h1>
 
         <form
           ref={formRef}
@@ -118,7 +118,7 @@ const Contact = () => {
               name="message"
               rows="4"
               className="textarea"
-              placeholder="Write your thoughts here..."
+              placeholder="Escribe tu texto aqui..."
               value={form.message}
               onChange={handleChange}
               onFocus={handleFocus}
@@ -133,7 +133,7 @@ const Contact = () => {
             onFocus={handleFocus}
             onBlur={handleBlur}
           >
-            {loading ? "Sending..." : "Submit"}
+            {loading ? "Enviando..." : "Enviar"}
           </button>
         </form>
       </div>

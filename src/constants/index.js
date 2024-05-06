@@ -157,17 +157,25 @@ export const socialLinks = [
 export const projects = [
   {
     iconUrl: chatbot,
+    theme: "btn-back-red",
+    name: "Chatbot de Empleate con Talento",
+    description:
+      "Este chatbot fue creado como parte de una landing page del stakeholder de Empléate con Talento, completamente hecho con React.",
+    link: "https://chat-empleate.vercel.app/",
+  },
+  {
+    iconUrl: chatbot,
     theme: "btn-back-black",
     name: "ChatbotReact",
     description:
-      "The React chatbot is an application that engages with users interested in motorcycles. It utilizes a conversation tree based on age and motorcycle usage preferences to provide personalized recommendations. It assists users in finding information about various types of motorcycles tailored to their specific needs.",
+      "El chatbot de React es una aplicación que interactúa con usuarios interesados en motocicletas. Utiliza un árbol de conversación basado en la edad y las preferencias de uso de motocicletas para brindar recomendaciones personalizadas. Ayuda a los usuarios a encontrar información sobre varios tipos de motocicletas adaptadas a sus necesidades específicas.",
     link: "https://chatbot-react-murex.vercel.app/",
   },
   {
     iconUrl: shoppingCart,
     theme: "btn-back-blue",
     name: "Simple Shopping Cart Component",
-    description: "A simple shopping cart made with React.",
+    description: "Un carrito de compras simple hecho con React.",
     link: "https://carrito-basico-zeta.vercel.app/",
   },
   {
@@ -175,19 +183,12 @@ export const projects = [
     theme: "btn-back-green",
     name: "TO-DO-LIST",
     description:
-      "A to-do list capable of storing data locally. It may seem simple, but it allows for data storage and task editing. Additionally, once a task is completed, it automatically moves to the bottom of the list, eliminating the need to manually rearrange tasks. The entire application was created using JavaScript with a touch of CSS. It features a minimal and beautiful design, so enjoy!",
+      "Una lista de tareas capaz de almacenar datos localmente. Puede parecer simple, pero permite el almacenamiento de datos y la edición de tareas. Además, una vez que una tarea se completa, se mueve automáticamente hacia el final de la lista, eliminando la necesidad de reorganizar las tareas manualmente. Toda la aplicación fue creada utilizando JavaScript con un toque de CSS. Presenta un diseño minimalista y hermoso, ¡así que disfrútalo!",
     link: "https://agt1984.github.io/to-do-list/",
   },
   {
     iconUrl: summiz,
     theme: "btn-back-orange",
-    name: "EN PROCESO",
-    description: "TRABAJANDO PARA USTED..",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-red",
     name: "EN PROCESO",
     description: "TRABAJANDO PARA USTED..",
     link: "https://github.com/adrianhajdin/project_ai_summarizer",
